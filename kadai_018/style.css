@@ -68,8 +68,14 @@
 
 /* 3-2,3-3 位置指定 */
 #bottom-child02{
-  margin-left: 200px;
+  position: relative;
+  left: 200px;
+  /* 以下はpositionプロパティを使用しておらず再提出 */
+  /* margin-left: 200px; */
 }
 #bottom-child03{
-  margin-left: 400px;
+  position: relative;
+  left: 400px;
+  /* 以下はpositionプロパティを使用しておらず再提出 */
+  /* margin-left: 400px; */
 }
